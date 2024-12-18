@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Author';
+    /* src: url('/fonts/Author-Medium.otf'); */
+    src: url('/fonts/Author-Light.otf');
+    /* src: url('/fonts/Author-Regular.otf'); */
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('/fonts/CabinetGrotesk-Extrabold.otf')
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-family: 'Cabinet Grotesk';
+}
+
+p {
+    font-family: 'Author';
+}
